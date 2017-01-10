@@ -1,0 +1,21 @@
+{
+    "name": "gaopengfei/born",
+    "description": "how to build a composer package",
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "gaofeifiy",
+            "email": "5173180@qq.com"
+        }
+    ],
+   "minimum-stability": "dev",
+   "require": {
+       "php": ">=5.3.0"
+   },
+   "autoload": {
+       "psr-4": {
+           "Body\\Arm\\": "src/Body/Arm",
+           "Body\\Leg\\": "src/Body/Leg"
+       }
+   }
+}

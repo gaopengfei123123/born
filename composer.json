@@ -1,7 +1,7 @@
 {
     "name": "gaopengfei/born",
     "description": "how to build a composer package",
-    "license": "gpl",
+    "license": "MIT",
     "authors": [
         {
             "name": "gaofeifiy",

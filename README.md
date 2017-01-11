@@ -8,11 +8,17 @@ how to build a composer package
 
 实现步骤是
 1. 创建一个git库 （不用说自己查）
+
 2. 初始化composer包
+
 命令 `composer init` 然后一路回车，生成的 composer.json 的样本如下（重点在这里）
+
 3. https://packagist.org 上注册
+
 顺着网站提示一路下去就行
+
 4. 库中引用  
+
 在你想要使用库的项目中的 composer.json 的 `require` 中添加 `  "gaopengfei/born":"dev-master"`
 
 然后运行 `composer update` ，你的包就出现在该项目中的依赖当中了，注意：require的时候一定要指明版本，不然会报错
